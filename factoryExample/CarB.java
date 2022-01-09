@@ -1,10 +1,8 @@
 package factoryExample;
 
-public class Car {
-    private short vitesse;
-    private String modele;
+public class CarB extends Car{
+    private String  modele = "CAR B";
     public void getModele(){
         System.out.println(this.modele);
     }
-    
 }
